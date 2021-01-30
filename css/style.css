@@ -21,7 +21,7 @@
   }
   
   .socialIcons {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -110,21 +110,20 @@
   /* photogrid */
   .row {
     display: flex;
-    flex-wrap: wrap;
     padding: 20px 20px;
     /* justify-content: space-evenly; */
   }
   
-  .column {
-    flex: 50%;
+  .container {
+    /* flex: 50%; */
     padding: 0 4px;
-    vertical-align: center;
+    align-items: left
     /* justify-content: center; */
   }
   
   .column img {
     margin-top: 8px;
-    vertical-align: middle;
+    vertical-align: left;
   }
   
   
